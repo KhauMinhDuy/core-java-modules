@@ -1,0 +1,10 @@
+
+.idea
+.project
+
+*/*.resourceCache
+*/*.settings
+*/*.project
+*/*.classpath
+*/*.class
+*/target
