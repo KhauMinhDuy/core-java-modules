@@ -23,4 +23,10 @@ public class Java8DefaultStaticIntefaceMethodsUnitTest {
 		assertEquals("N&F Vehicles", producer);
 	}
 	
+	@Test
+	public void callDefaultInterfaceMethods_whenExpectedResults_thenCorrect() {
+		String producer = Vehicle.producer();
+		assertEquals("N&F Vehicles", producer);
+	}
+	
 }
