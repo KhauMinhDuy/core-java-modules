@@ -1,0 +1,2 @@
+Hello DK
+This is AES file encryption sample
