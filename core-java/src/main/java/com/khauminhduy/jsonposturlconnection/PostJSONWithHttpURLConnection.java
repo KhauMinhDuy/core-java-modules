@@ -34,8 +34,7 @@ public class PostJSONWithHttpURLConnection {
 		int code = connection.getResponseCode();
 		System.out.println(code);
 
-		try (BufferedReader br = new BufferedReader(
-				new InputStreamReader(connection.getInputStream(), StandardCharsets.UTF_8));) {
+		try (BufferedReader br = new BufferedReader(new InputStreamReader(connection.getInputStream(), StandardCharsets.UTF_8));) {
 			StringBuilder response = new StringBuilder();
 			String responseLine = null;
 			while((responseLine = br.readLine()) != null) {

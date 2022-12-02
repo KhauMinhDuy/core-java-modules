@@ -7,7 +7,6 @@ public class Pizza {
 
 	// Accessible globally
 	public static class PizzaSalesCounter {
-
 		private static String orderedCount;
 		public static String deliveredCount;
 
